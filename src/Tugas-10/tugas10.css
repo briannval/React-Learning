@@ -1,0 +1,17 @@
+table {
+    border:1;
+    border-width: 5px;
+    border-color: black;
+}
+
+th {
+    background: gray;
+}
+
+td#table{
+    background: coral;
+}
+
+td{
+    background: white;
+}

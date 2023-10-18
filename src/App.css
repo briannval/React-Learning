@@ -1,0 +1,159 @@
+.Form {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border:1px solid black;
+  padding-bottom: 12px;
+  margin-top: 15px;
+}
+
+.FormBaru {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border:1px solid black;
+  padding-bottom: 12px;
+  margin-top: 15px;
+  padding-top: 12px
+}
+
+.Formm{
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border:2px solid black;
+  padding-bottom: 12px;
+  margin-top: 15px;
+  padding-top: 12px;
+}
+
+.container {
+  width: 150px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px
+}
+
+.Font {
+  text-align: center;
+}
+
+
+
+.App {
+  text-align: left;
+  align-items: center;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h1, p {
+  font-family: serif;
+  font-weight: bold;
+}
+h1{
+  text-align: center;
+}
+p{
+  text-align: left;
+}
+td {
+  width: 150px;
+  vertical-align: text-bottom;
+}
+button {
+  border-radius: 15px;
+}
+
+table {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+.dark ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.dark li {
+  float: left;
+}
+
+.dark li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dark li a:hover {
+  background-color: rgb(253, 252, 252);
+}
+
+.light ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(253, 251, 251);
+  color: black;
+}
+
+.light li {
+  float: left;
+}
+
+.light li a {
+  display: block;
+  color: rgb(3, 3, 3);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.light li a:hover {
+  background-color: rgb(8, 8, 8);
+}

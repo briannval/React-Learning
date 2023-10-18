@@ -1,0 +1,9 @@
+div#timer{
+    display:inline;
+}
+h1#jam{
+    float:left;
+}
+h1#hitung{
+    float: right;
+}
